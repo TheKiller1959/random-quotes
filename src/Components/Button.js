@@ -1,7 +1,7 @@
 import img1 from './shuffle.svg';
 import img2 from './twitter-alt.svg';
 
-const Button = ({handle, color}) => {
+const Button = ({handle}) => {
 
   return(
     <div className="d-flex jc-space-between">
