@@ -1,5 +1,5 @@
-import './App.css';
-import Data from './Components/quotes.json';
+import './assets/styles/App.css';
+import Data from './assets/data/quotes.json';
 import React, { useState } from 'react';
 import QuoteBox from './Components/QuoteBox';
 import Button from './Components/Button';
@@ -46,7 +46,7 @@ function App() {
           <div className="card">
             <QuoteBox quote={quote}/>
             <hr />
-            <Button handle={HandleIndex} color={color} quote={quote.quote}/>
+            <Button handle={HandleIndex} color={color} quote={quote.quote} author={quote.author}/>
           </div>
         </div>
       </div>

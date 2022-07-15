@@ -1,4 +1,4 @@
-const QuoteBox = ({quote}) => {
+const QuoteBox = ({quote, author}) => {
   return(
     <div>
       <div className="d-flex">

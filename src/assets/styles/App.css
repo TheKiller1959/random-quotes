@@ -129,7 +129,7 @@ button {
 }
 
 .bgcolor {
-  background-image: url(Components/bg.gif);
+  background-image: url(../images/bg.gif);
   background-size: cover;
 }
 
@@ -142,4 +142,12 @@ button {
 .jc-space-between {
   justify-content: space-between;
   padding: 5px 15px;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
 }
