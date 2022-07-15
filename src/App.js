@@ -3,6 +3,7 @@ import Data from './assets/data/quotes.json';
 import React, { useState } from 'react';
 import QuoteBox from './Components/QuoteBox';
 import Button from './Components/Button';
+import Footer from './Components/Footer';
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
             <QuoteBox quote={quote}/>
             <hr />
             <Button handle={HandleIndex} color={color} quote={quote.quote} author={quote.author}/>
+            <Footer />
           </div>
         </div>
       </div>

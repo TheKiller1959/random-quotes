@@ -133,6 +133,22 @@ button {
   background-size: cover;
 }
 
+.footer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #7c7c7c;
+  margin-top: 1.5rem;
+}
+
+.copyright {
+  margin-top: .5rem;
+  font-size: smaller;
+  color: #7c7c7c;
+}
+
 /* Genérico */
 
 .d-flex {
@@ -148,6 +164,6 @@ button {
 
 @media screen and (max-width: 600px) {
   .card {
-    width: 100%;
+    width: 80%;
   }
 }
